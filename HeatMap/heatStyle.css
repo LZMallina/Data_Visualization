@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    background:whitesmoke;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    color:red;
+    font-weight:bold;
+}
+h5{
+    color:blue;
+}
+
+svg{
+    background:white;
+    display:block;
+    margin:auto;
+}
+#x-axis, #y-axis{
+    font-size:20px;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px sans-serif;
+  color:white;
+  background:gray;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  text-align:center;
+}

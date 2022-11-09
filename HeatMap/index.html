@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freecode Camp Heat Map challenge</title>
+    <!--d3.js link for graph and legend color scheme---->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    
+    <!--bootstrap style link just for its container-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--my css link-->
+    <link rel ="stylesheet" href ="./heatStyle.css">
+</head>
+<body>
+    <div class ='container'>
+        <h2 id ="title">Monthly Global Land-Surface Temperature</h2>
+        <h5 id = "description">1753-2015: base temperature 8.66<span>&#8451</span></h5>
+        <svg id="canvas"></svg>
+        <div class="visHolder"></div>
+    </div>
+</body>
+<script src ="./heatMap.js"></script>
+</html>
